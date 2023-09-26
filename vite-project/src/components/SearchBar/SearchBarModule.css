@@ -1,0 +1,69 @@
+/* Estilo para el contenedor del SearchBar */
+.search-bar-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilo para el campo de entrada de texto */
+input[type="text"] {
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #c91f58;
+  border-radius: 25px; /* Forma circular */
+  width: 300px;
+  margin-right: 10px;
+  outline: none; /* Quita el borde de enfoque */
+}
+
+/* Estilo para el botón de búsqueda */
+.search-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #45dd5e; /* Color de fondo predeterminado */
+  color: #cc2f2f; /* Color del texto predeterminado */
+  border: none;
+  border-radius: 25px; /* Forma circular */
+  cursor: pointer;
+  outline: none; /* Quita el borde de enfoque */
+  transition: background-color 0.3s ease;
+}
+
+/* Cambio de color al pasar el ratón por encima del botón de búsqueda */
+.search-button:hover {
+  background-color: #fc8181; /* Cambio de color al pasar el ratón */
+}
+
+/* Cambio de color al hacer clic en el botón de búsqueda */
+.search-button:active {
+  background-color: #bbd621; /* Cambio de color al hacer clic */
+}
+
+/* Estilo para el botón de búsqueda cuando el campo de entrada tiene contenido */
+input[type="text"]:not(:placeholder-shown) + button {
+  background-color: #d62332; /* Cambio de color cuando el campo de entrada tiene contenido (rojo) */
+  color: #f0e3ec9a; /* Color del texto cuando el campo de entrada tiene contenido */
+}
+
+/* Restaura el color de fondo y del texto del botón de búsqueda cuando el campo de entrada está vacío */
+input[type="text"]:placeholder-shown + button {
+  background-color: #d85c6c; /* Color de fondo predeterminado cuando el campo está vacío */
+  color: #e2cedc; /* Color del texto predeterminado cuando el campo está vacío */
+}
+
+/* Estilo para el campo de entrada de texto cuando está vacío */
+input[type="text"]:empty {
+  background-color: #86dfbd; /* Cambia el color de fondo cuando el campo está vacío */
+}
+
+/* Estilo para el campo de entrada de texto cuando tiene contenido */
+input[type="text"]:not(:empty) {
+  background-color: #8b91dd; /* Cambia el color de fondo cuando el campo tiene contenido */
+}
+
+/* Estilo para el título */
+.titulo {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #d11e2d; /* Color del título */
+  margin-top: 20px;
+}

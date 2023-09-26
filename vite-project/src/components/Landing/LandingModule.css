@@ -1,0 +1,57 @@
+/* Estilo del contenedor principal */
+.landing-container {
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/522/664/862/animales-perro-tren-via-wallpaper-preview.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(176, 38, 189);
+  text-align: center;
+  position: relative;
+}
+
+/* Estilo del contenido interno */
+.landing-content {
+  /* Estilo de la imagen con marco */
+  border: 5px solid rgba(166, 189, 38, 0.5);
+  box-shadow: 0 0 20px rgba(38, 189, 106, 0.8);
+  border-radius: 7px;
+  margin-left: auto; /* Mueve el contenido hacia la derecha */
+}
+
+.landing-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(55, 187, 22, 0.5);
+}
+
+.landing-button {
+  text-decoration: none;
+  padding: 12px 24px;
+  background-color: rgba(228, 30, 30, 0.3);
+  color: rgb(216, 115, 47);
+  border: 2px solid rgba(25, 141, 25, 0.7);
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease, border-width 0.3s ease; /* Agregamos transición para el borde */
+  position: relative;
+}
+
+.landing-button:hover {
+  background-color: rgba(228, 155, 224, 0.5);
+  border-color: rgba(196, 37, 37, 0.9);
+  border-width: 4px; /* Cambiamos el ancho del borde al pasar el ratón */
+  top: -5px;
+}
+
+/* Estilo del mensaje */
+.landing-message {
+  color: rgb(130, 25, 216); /* Cambia el color del mensaje a azul o el color que desees */
+  font-size: 1.5rem; /* Tamaño de fuente del mensaje */
+  margin-top: 10px; /* Espacio superior */
+}

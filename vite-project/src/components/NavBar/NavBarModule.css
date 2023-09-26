@@ -1,0 +1,57 @@
+/* Estilo para el botón "Log Out" */
+.btn-logout {
+  background-color: #00796B;
+  border: none; /* Quitamos el borde para darle forma de botón rectangular */
+  border-radius: 20px; /* Esquinas redondeadas */
+  color: #db2727;
+  padding: 10px 20px;
+  margin-right: 10px; /* Margen derecho para separar los botones */
+  box-shadow: 0 4px 6px rgba(177, 40, 30, 0.877);
+  transition: transform 2s ease;
+  text-decoration: none; /* Quitamos la decoración de texto */
+}
+
+.btn-logout:hover {
+  background-color: #b3c743;
+  transform: translateX(10px);
+}
+
+/* Estilo para el botón "Create New breed" */
+.btn-create {
+  background-color: #FFC107;
+  border: none;
+  border-radius: 20px;
+  color: #10dd6c;
+  padding: 10px 20px;
+  margin-right: 10px; /* Margen derecho para separar los botones */
+  box-shadow: 0 4px 6px rgba(219, 52, 23, 0.795);
+  transition: transform 2s ease;
+  text-decoration: none; /* Quitamos la decoración de texto */
+}
+
+.btn-create:hover {
+  background-color: #1db825;
+  transform: translateX(10px);
+}
+
+/* Estilo para el botón "Home" */
+.btn-home {
+  background-color: #E91E63;
+  border: none;
+  border-radius: 20px;
+  color: #9cc019;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(192, 8, 8, 0.87);
+  transition: transform 2s ease;
+  text-decoration: none; /* Quitamos la decoración de texto */
+}
+
+.btn-home:hover {
+  background-color: #1b18c2;
+  transform: translateX(10px);
+}
+
+/* Cambio de color de los enlaces al pasar el ratón */
+.navbar a:hover {
+  color: rgb(231, 24, 24); /* Cambiamos el color de los enlaces al pasar el ratón a blanco */
+}

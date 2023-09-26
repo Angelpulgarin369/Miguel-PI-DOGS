@@ -1,0 +1,95 @@
+/* Establece un estilo para el div principal */
+.form-container {
+  background-image: url('https://c1.wallpaperflare.com/preview/523/609/184/dog-pet-loyal-animal.jpg'); /* Agrega la URL de tu imagen de fondo */
+  background-color: #3b9e1d; /* Cambia el color de fondo */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(218, 135, 11, 0.2);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #d0dd15;
+}
+
+.form-title {
+  font-size: 24px;
+  color: #da1387;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-size: 16px;
+  color: #c1e00c;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-button {
+  background-color: #007bff;
+  color: #da0505;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Mayor espacio entre filas */
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-input {
+  margin-right: 5px;
+}
+
+.alert {
+  background-color: #da0505;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.alert button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.alert button:hover {
+  background-color: #555;
+}
+  

@@ -1,0 +1,32 @@
+.card {
+  border: 1px solid #ccc; /* Borde para el card */
+  padding: 10px; /* Espaciado interno */
+  margin: 10px; /* Margen exterior */
+  max-width: 300px; /* Ancho máximo del card */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra del card */
+}
+
+.card h1 {
+  font-size: 1.5rem; /* Tamaño de fuente para el nombre */
+  margin-bottom: 5px; /* Espacio inferior */
+}
+
+.card img {
+  max-width: 300px;
+  max-height: 300px; /* Ancho máximo de la imagen */
+  background-size: cover; /* Altura automática para mantener la proporción */
+}
+
+.card a {
+  text-decoration: none; /* Quita la decoración de enlace */
+  background-color: #007bff; /* Color de fondo del enlace */
+  color: white; /* Color del texto del enlace */
+  padding: 5px 10px; /* Espaciado del enlace */
+  border-radius: 5px; /* Borde redondeado */
+  display: inline-block; /* Muestra el enlace como un bloque en línea */
+  margin-top: 10px; /* Espacio superior */
+}
+
+.card a:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón */
+}

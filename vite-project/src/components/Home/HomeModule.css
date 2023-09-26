@@ -1,0 +1,61 @@
+
+/* Estilo para el encabezado */
+.header {
+  font-size: 24px;
+  color: #da1e1e;
+  margin-bottom: 20px;
+}
+
+/* Estilo para los selectores */
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.select-label {
+  font-size: 18px;
+  margin-right: 10px;
+  color:#ebdc14
+}
+
+.select {
+  border: 1px solid #2926ce;
+  padding: 8px;
+  margin: 5px;
+  background-color: #6ca511;
+  color: #bcdf23;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.select:focus {
+  border: 1px solid #3700ff;
+  outline: none;
+}
+
+/* Estilos para el botón de restablecer filtros */
+.reset-button {
+  background-color: #d42323;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 1s ease, transform 0.2s ease;
+}
+
+.reset-button:hover {
+  background-color: #8754ff;
+  transform: scale(1.05);
+}
+
+/* Estilos para el contenedor de tarjetas */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
